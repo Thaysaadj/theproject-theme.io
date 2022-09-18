@@ -1,0 +1,58 @@
+{
+  "store.home": { 
+    "blocks": [
+      "rich-text#top-desk",
+      "info-card#primeiro-infocard",
+      "info-card#button-right",
+      "info-card#button-left"
+    ]
+  },
+  "rich-text#top-desk": { 
+    "props": { 
+      "text": "*Iniciando com Rich Text*",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+  "info-card#primeiro-infocard": {
+    "props": {
+      "isFullModeStyle": true,
+      "blockClass": "primeiro-infocard",
+      "callToActionText": "Compre Agora",
+      "headline": "Produtos com 50% de Desconto",
+      "id": "",
+      "imageUrl": "https://appliancetheme.vteximg.com.br/arquivos/cozinha-rosa-min.png",
+      "subhead": "Nos chame no zap",
+      "textAlignment": "center",
+      "textPosition": "center"
+    }
+  },
+
+  "info-card#button-right" : {
+    "props": {
+      "blockClass": "info-card-right",
+
+      "inFullModeStyle" : false,
+      "textAlignment": "center",
+      "textPosition": "right",
+      "imageUrl":"https://appliancetheme.vteximg.com.br/arquivos/cozinha-rosa-min.png",
+      "headline": "Vintage Pink",
+      "subhead": "Give your kitchen a boho style adding vintage apparels.<br>Available until January 2020.",
+      "callToActionMode": "button",
+      "callToActionText": "Explore",
+      "callToActionUrl": "/sale/d"
+    }
+  },
+  "info-card#button-left": {
+    "props": {
+      "blockClass": "info-card-left",
+      "callToActionText": "Go to Collection",
+      "headline": "Shining chrome",
+      "id": "",
+      "imageUrl": "https://appliancetheme.vteximg.com.br/arquivos/cozinha-cinza-min.png",
+      "subhead": "Give your kitchen a cool style adding warm metallic finishes.<br>Available until December 2020.",
+      "textAlignment": "center",
+      "textPosition": "left"
+    }
+  }
+}
